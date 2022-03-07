@@ -16,7 +16,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "leb128": "^0.0.4",
-    "redstone-wasm-json-toolkit": "1.0.0"
+    "redstone-wasm-json-toolkit": "1.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
