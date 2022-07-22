@@ -1,6 +1,6 @@
 {
   "name": "redstone-wasm-metering",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "RedStone implementation of wasm-metering",
   "main": "index.js",
   "scripts": {
