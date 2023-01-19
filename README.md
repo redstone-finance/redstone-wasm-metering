@@ -6,7 +6,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-**redstone-wasm-metering is a fork of https://github.com/ewasm/wasm-metering. It uses redstone-wasm-json-toolkit instead of wasm-json-toolkit which provides consistent API for Buffer object between server and client by using `safe-buffer` library for node and `buffer` for browser.**
+**warp-wasm-metering is a fork of https://github.com/ewasm/wasm-metering. It uses warp-wasm-json-toolkit instead of wasm-json-toolkit which provides consistent API for Buffer object between server and client by using `safe-buffer` library for node and `buffer` for browser.**
 
 Injects metering into webassembly binaries. The metering counts computation
 time for a given program in units of `gas`. The metered wasm binary expects an
@@ -15,13 +15,13 @@ For a more detailed description of how this works see [metering.md](https://gith
 
 # INSTALL
 
-`npm install wasm-metering`
+`npm install warp-wasm-metering`
 
 # USAGE
 
 ```javascript
 const fs = require('fs');
-const metering = require('wasm-metering');
+const metering = require('warp-wasm-metering');
 
 const wasm = fs.readFileSync('fac.wasm');
 const meteredWasm = metering.meterWASM(wasm, {

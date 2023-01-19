@@ -1,6 +1,6 @@
-const toolkit = require('redstone-wasm-json-toolkit');
+const toolkit = require('warp-wasm-json-toolkit');
 const text2json = toolkit.text2json;
-const SECTION_IDS = require('redstone-wasm-json-toolkit/json2wasm').SECTION_IDS;
+const SECTION_IDS = require('warp-wasm-json-toolkit/json2wasm').SECTION_IDS;
 const defaultCostTable = require('./defaultCostTable.json');
 
 // gets the cost of an operation for entry in a section from the cost table

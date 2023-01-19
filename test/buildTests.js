@@ -1,7 +1,7 @@
 const fs = require('fs');
 const cp = require('child_process');
 const path = require('path');
-const wasm2json = require('redstone-wasm-json-toolkit/wasm2json');
+const wasm2json = require('warp-wasm-json-toolkit/wasm2json');
 
 function processFiles(path, out) {
   const binPath = `${__dirname}/wabt/out/wast2wasm`;
